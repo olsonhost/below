@@ -42,6 +42,11 @@ if (room != rMenu) {
 	{
 		layer_x("Trees",x/4); // closer to player than mountains
 	}
+	
+	if (layer_exists("Background")) 
+	{
+		layer_x("Background",x); // closer to player than mountains
+	}
 
 }
 

@@ -86,6 +86,19 @@ if (place_meeting(x + hsp, y, obj_wall))
 	
 }
 
+// If Bon is horizonally about to hit a shootable wall
+if (place_meeting(x + hsp, y, obj_wallX))
+{
+	// incrementally creep up to the wall
+	while(!place_meeting(x + sign(hsp), y, obj_wallX))
+	{
+		x = x + sign(hsp)
+	}
+	// Then set the horizontal speed to zero
+	hsp = 0;
+	
+}
+
 x = x + hsp;
 
 

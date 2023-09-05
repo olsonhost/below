@@ -117,11 +117,24 @@ if (place_meeting(x, y+vsp, obj_wall))
 	
 }
 
+// If Bon is verticallyally about to hit a shootable wall
+if (place_meeting(x, y+vsp, obj_wallX))
+{
+	// incrementally creep up to the floor
+	while(!place_meeting(x, y+sign(vsp),obj_wallX))
+	{
+		y = y + sign(vsp);
+	}
+	// Then set the vertical speed to zero
+	vsp = 0;
+	
+}
+
 y = y + vsp;
 
 // Animation
 
-if (!place_meeting(x, y+1, obj_wall)) 
+if ( (!place_meeting(x, y+1, obj_wall)) && (!place_meeting(x, y+1, obj_wallX))) 
 {
 	sprite_index = sBonA;
 	image_speed = 0;

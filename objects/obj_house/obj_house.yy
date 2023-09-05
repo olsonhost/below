@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_wallX",
+  "name": "obj_house",
   "eventList": [],
   "managed": false,
   "overriddenProperties": [],
@@ -9,10 +9,7 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": {
-    "name": "pShootable",
-    "path": "objects/pShootable/pShootable.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sWallX",
-    "path": "sprites/sWallX/sWallX.yy",
+    "name": "sHouse",
+    "path": "sprites/sHouse/sHouse.yy",
   },
   "spriteMaskId": null,
   "visible": true,

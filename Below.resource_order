@@ -20,6 +20,7 @@
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"snFoot4","order":5,"path":"sounds/snFoot4/snFoot4.yy",},
     {"name":"obj_gun_pickup","order":14,"path":"objects/obj_gun_pickup/obj_gun_pickup.yy",},
+    {"name":"sHouse","order":24,"path":"sprites/sHouse/sHouse.yy",},
     {"name":"sMountain","order":12,"path":"sprites/sMountain/sMountain.yy",},
     {"name":"snDeath","order":1,"path":"sounds/snDeath/snDeath.yy",},
     {"name":"sEnemyAir","order":9,"path":"sprites/sEnemyAir/sEnemyAir.yy",},
@@ -68,6 +69,7 @@
     {"name":"snLanding","order":6,"path":"sounds/snLanding/snLanding.yy",},
     {"name":"sGun","order":4,"path":"sprites/sGun/sGun.yy",},
     {"name":"snFoot2","order":3,"path":"sounds/snFoot2/snFoot2.yy",},
+    {"name":"obj_house","order":19,"path":"objects/obj_house/obj_house.yy",},
     {"name":"sBonD","order":16,"path":"sprites/sBonD/sBonD.yy",},
   ],
 }

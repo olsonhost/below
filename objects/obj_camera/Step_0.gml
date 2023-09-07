@@ -32,11 +32,18 @@ camera_set_view_pos(cam,x-view_w_half,y-view_h_half);
 
 if (room != rMenu) {
 
+
 	if (layer_exists("Mountains")) 
 	{
 		//OR do mountains = layer_get_id("Mountains")	in create event
 		layer_x("Mountains",x/2); // x alone would be still against camera (like max depth)
 	}
+
+	if (layer_exists("GhostTown")) 
+	{
+		layer_x("GhostTown",x/3); // closer to player than mountains
+	}
+	
 
 	if (layer_exists("Trees")) 
 	{
@@ -45,7 +52,7 @@ if (room != rMenu) {
 	
 	if (layer_exists("Background")) 
 	{
-		layer_x("Background",x); // closer to player than mountains
+		layer_x("Background",x); // still against camera (like max depth)
 	}
 
 }

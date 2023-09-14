@@ -61,6 +61,7 @@
     {"name":"sstars","order":15,"path":"sprites/sstars/sstars.yy",},
     {"name":"snFoot1","order":2,"path":"sounds/snFoot1/snFoot1.yy",},
     {"name":"obj_transition","order":7,"path":"objects/obj_transition/obj_transition.yy",},
+    {"name":"bgSndGhostTown","order":7,"path":"sounds/bgSndGhostTown/bgSndGhostTown.yy",},
     {"name":"sCrate","order":21,"path":"sprites/sCrate/sCrate.yy",},
     {"name":"sMarker","order":17,"path":"sprites/sMarker/sMarker.yy",},
     {"name":"sPistol","order":22,"path":"sprites/sPistol/sPistol.yy",},

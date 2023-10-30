@@ -1,3 +1,5 @@
+if (!instance_exists(oBon)) return;
+
 x = oBon.x;
 y = oBon.y+10;
 

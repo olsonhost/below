@@ -13,7 +13,9 @@ canjump = 0;
 
 audio_sound_pitch(snd_shot, 0.8);
 
-//audio_play_sound(bgSndGhostTown,10,true);
+
+
+//music_id = audio_play_sound(bgSndGhostTown,10,true);
 
 // There you go
 

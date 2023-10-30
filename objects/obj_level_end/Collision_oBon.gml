@@ -2,6 +2,8 @@
 
 with (oBon)
 {
+	
+	//audio_stop_sound(music_id);
 	if (hascontrol)
 	{
 		hascontrol = false;

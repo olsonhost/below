@@ -73,6 +73,7 @@
     {"name":"sGun","order":4,"path":"sprites/sGun/sGun.yy",},
     {"name":"snFoot2","order":3,"path":"sounds/snFoot2/snFoot2.yy",},
     {"name":"obj_house","order":19,"path":"objects/obj_house/obj_house.yy",},
+    {"name":"OverLordDVD","order":8,"path":"sounds/OverLordDVD/OverLordDVD.yy",},
     {"name":"sBonD","order":16,"path":"sprites/sBonD/sBonD.yy",},
   ],
 }
